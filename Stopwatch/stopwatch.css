@@ -1,0 +1,60 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+
+}
+
+.stopwatch{
+    width: 605px;
+    background-color: #f7ab09;
+    border-radius: 15px;
+    padding: 30px 30px 25px;
+    
+}
+
+.stopwatch h1{
+    text-align: center;
+    font-weight: 600;
+    font-size: 35px;
+    color: white;
+    letter-spacing: 1px;
+}
+.stopwatch h2{
+    text-align: center;
+    font-weight: 600;
+    font-size: 35px;
+    color: white;
+    letter-spacing: 1px;
+}
+.stopwatch p{
+    text-align: center;
+    font-weight: 600;
+    color: white;
+}
+
+
+
+#second, #tens{
+    font-size: 2rem;
+   
+}
+button{
+    width: 150px;
+    height: 50px;
+    background: transparent;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    margin-left: 5%;
+    cursor: pointer;
+}
+
+button:hover{
+    background: white;
+    color: #f7ab09;
+    font-weight: 800;
+    text-transform: capitalize;
+
+}
